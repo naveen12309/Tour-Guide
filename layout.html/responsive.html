@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      font-family: Verdana;
+    }
+    header{
+      width: 97%;
+      padding: 30px;
+      background-color:#f1f1f1 ;
+      display: block;
+      
+    }
+    header h1{
+      font-size: 50px;
+    }
+    
+    h1{
+      font-size: 40px;
+    }
+    h2{
+      font-size: 35px;
+    }
+    nav{
+      width: 15%;
+      float:left;
+    }
+    ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 5px;
+      text-decoration: none;
+    }
+    ul li{
+      padding: 10px;
+      font-size: 25px;
+      border-bottom: 1px solid rgb(213, 204, 204);
+      
+    }
+    a{
+      text-decoration: none;
+      color: black;
+    }
+    main{
+      width: 62%;
+      margin-left: 20px;
+      float: left;
+    }
+    main p{
+      font-size: 25px;
+      text-align: justify;
+    }
+    .img{
+      width: 100%;
+      height: auto;
+    }
+    div{
+      float: left;
+      width: 18%;
+      background-color: lightblue;
+      padding: 20px;
+      margin-left: 20px;
+      margin-top: 20px;
+
+     
+    }
+    li:hover{
+      background-color: lightgray;
+    }
+    div p{
+      font-size: 25px;
+      text-align: justify;
+    }
+    @media only screen and (max-width:1650px){
+      div{
+        width:15%;
+        
+      }
+    }
+    @media only screen and (max-width:1200px){
+      main{
+        width: 50%;
+      }
+      div{
+        width:26%;
+       
+      }
+    }
+    @media only screen and (max-width:1000px){
+      main{
+        width: 50%;
+      }
+      div{
+        width:20%;
+       
+      }
+    }
+    @media only screen and (max-width:980px){
+      main{
+        width: 50%;
+      }
+      div{
+        width:23%;
+       
+      }
+    }
+    @media only screen and (max-width:950px){
+      nav{
+        width: 100%;
+      }
+      main{
+        width: 100%;
+      }
+      div{
+        width:100%;
+        
+      }
+    }
+    
+
+    div h1:hover{
+      text-decoration: underline;
+      transform: scaleY(1.2);
+    }
+    .train{
+      display: block;
+    } 
+    .main h1:hover{
+       transform: translateY(-5PX);
+       text-decoration: underline;
+       color: rgb(73, 65, 65);
+    }
+
+    .gallery-img{
+      transition: all 1s;
+    }
+    .gallery-img:hover{
+      transform: scale(1.5);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cinque Terre</h1>
+    <h3>Resize the browser window</h3>
+  </header>
+  <section class="section">
+    <nav>
+      <ul>
+        <li><a href="#c1">The Walk</a></li>
+        <li><a href="#c2">Transport</a></li>
+        <li><a href="#c3">History</a></li>
+        <li><a href="#c4">gallery</a></li>
+        <li><a href="#c5">Contact</a></li>
+      </ul>
+    </nav>
+    <main class="main">
+      <h1 id="c1">
+        The Walk
+      </h1>
+      <p>
+        The walk from Monterosso to Riomaggiore will 
+        take you approximately two hours, give or take an hour depending 
+        on the weather conditions and your physical shape.
+      </p>
+      <img class="img"  src="../img_5terre.jpg" alt="no-image">
+
+      <h1 id="c2">
+        Transport
+      </h1>
+      <hr>
+      <p style="margin-top: 30px;">
+        <img src="../train_icon.png" alt="no image" style="float: left;width:30px;margin-right:20px">
+        <h2 >By train in the Cinque Terre</h2>
+      </p>
+      
+      <p class="train">
+        Train is the most economical and fastest way of travelling here. Every town of the Cinque Terre has a railway 
+        station. Trains run very frequently here, but we would recommend you to make sure that you either take a printout 
+        of the timetable or download one of the smartphone apps (you will find them searching for key words like treno, Italian train).
+        There is a special kind of Cinque Terre Card, which includes rail travel. It is very convenient; moreover, you 
+        will not have to buy tickets and track them all the time. Make sure that first time the ticket must be punched 
+        BEFORE boarding a train at one of the special automatic machines at the station, photo.
+        Additional information: website of Trenitalia
+      
+        Note: to ensure that tourists vacations in the Cinque Terre do not get spoiled, at least 50% of trains run in 
+        this region even if there is a transport strike (from Santa Margherita Ligure to La Spezia). See more at
+        <a href="https://www.incinqueterre.com/en/how-to-get-around" style="color: blue; text-decoration:underline">Click This Link</a> 
+      </p>
+      <p style="margin-top: 70px;">
+        <img src="../hiking_icon.png" alt="" style="float: left; margin-right:10px;margin-top:10px">
+        <img src="../bike_icon.png" alt="" style="float:left; margin-right:20px;margin-top:10px">
+        <h2>On foot or by bike in the Cinque Terre</h2>
+      </p>
+      <p>
+        <img src="../inoneday_9_m.jpg" alt="" style="float: left;margin-right:20px">
+        <p style="text-align: justify; ">The walking trails are the main attraction of the Cinque Terre. Therefore, majority of tourists move along them. The easiest one is the Blue Path, naturally. Some of its sections can be crossed on bikes as well, though it is not very convenient as they pass close to the sea and there are too many narrow passages.
+          Almost all the others paths are suitable for bikes. All necessary information is available in the section entirely dedicated to trails.
+          See more at <a href="https://www.incinqueterre.com/en/how-to-get-around" style="color: blue; text-decoration:underline">Click This Link</a></p>
+      </p>
+      <p style="margin-top: 70px;">
+        <img src="../boat_icon.png" alt="" style="float:left;margin-right:20px;margin-top:10px">
+        <h2>boat_icon.png</h2>
+      </p>
+      <p>
+        <img src="../ferry_timetable2.png" alt="" style="margin-right:20px; width:100%;height:auto">
+        <p>Boat is not a very convenient mode of travelling among the Cinque Terres villages, but from them you get a completely different view on the panoramic sight of the coast. You can also easily reach Portovenere on a boat.
+          The only village in the Cinque Terre that cannot be reached by boats is Corniglia.
+          The season opens late in March and closes early in November.
+          Schedule of boats is given in the table. Sometimes there can be minor changes depending on the season (date is shown on the table, and new schedule is available only on the day the schedule is changed); so make sure to check it when your arrival in the Cinque Terre.
+          See more at  <a href="https://www.incinqueterre.com/en/how-to-get-around" style="color: blue; text-decoration:underline">Click This Link</a> </p>
+      </p>
+      <p style="margin-top: 70px;">
+        <img src="../bus_icon (1).png" alt="" style="float: left; margin-right:20px;display:block;margin-top:10px
+        ">
+        <h2>Buses in the Cinque Terre</h2>
+      </p>
+      
+      <p>
+        There are no buses running between the villages of the Cinque Terre. Every village has 
+        its own bus running on short routes described below:
+      
+        Riomaggiore: from the village centre to the cemetery. Some journeys include 
+        routes to Biassa and the Pass of Telegrafo.
+        Manarola: from the village centre to the parking lot and small hamlet of Volastra.
+        Corniglia: from the village centre to the railway station.
+        Vernazza: connects the town with the nearest hamlets (for example, San Bernardino),
+         as well as with Reggio Santuary and the Black Madonna.
+        Monterosso: trip around the town and goes up to the "Soviore" Sanctuary (the most
+         ancient temple in Liguria).
+      
+        For using the bus services, you need to buy the Cinque Terre Card (you can buy it 
+        from the driver).
+      
+        Bus timetable: can be found on this website. But it is always better to confirm 
+        it on the spot upon your arrival.
+      
+        Buses from La Spezia:
+        There are also many routes connecting La Spezia with the small villages that 
+        can turn out very useful if you like hiking and do not want to trek through the entire path on foot.
+      
+        For example, from La Spezia you can reach Portovenere by bus 11/P, Biassa (
+          number 19), Campiglia (20), Volastra (29). Cost: a few euros.
+        Additional information: website with timetable of all the routes.
+      
+        See more at 
+        <a href="https://www.incinqueterre.com/en/how-to-get-around" 
+        style="color: blue; text-decoration:underline">Click This Link</a> 
+      </p> 
+
+      <h1 id="c3">History</h1>
+      <hr>
+      <img src="../history.jpeg" alt="no image" style="float: left;margin-right:20px">
+      <p>Cinque Terre is mentioned in documents dating to the 11th century. Monterosso and Vernazza were settled first and the other villages grew later, whilst within
+         the territory of the Republic of Genoa. In the 16th century, the inhabitants reinforced existing forts and built new defensive towers to protect the population from attacks by the Turks. Cinque Terre experienced an economic decline from the 17th to 19th 
+         centuries,[citation needed] recovering when an arsenal was built in 
+        La Spezia and it gained a railway link to Genoa.
+
+        Bombing and fighting during World War II caused extensive damage to the Cinque Terre.
+        
+        The railway led to migration from the area and a decline in traditional industries 
+        until the growth of tourism from the 1970s onward brought some prosperity.
+        
+        The predominant crops in the area have been grapes and olives. Some fishermen 
+        were based in Monterosso, but the area's gaily painted fishermen's cottages were conceived in the late 1970s as a tourist attraction.
+        
+        Because of its exceptional cultural and ecological assets, UNESCO added Cinque Terre to its list of World Heritage Sites in 1997.[2]
+        
+        On 25 October 2011, torrential rain caused floods and mudslides in Cinque Terre. 
+        Nine people were killed and villages were severely damaged, particularly Vernazza and Monterosso al Mare.[3] The heavy rainfall event was favoured by the crisis of the traditional and less remunerative cultivation of terraced landscapes which sixty years before started a progressive decline and reduction of maintenance. 
+        It was partially balanced by the vegetation that spontaneously developed on 
+        abandoned terraces, a role underlined by a part of the existing scientific literature</p>
+    
+
+      <h1 id="c4">
+        Gallery
+      </h1>
+      <hr>
+      <img src="../Monterosso_CinqueTerre.JPG" alt="" style="height: 250px; margin-right:20px; margin-top:20px"  class="gallery-img">
+      <img src="../300px-1_vernazza_2012.jpg" alt="" style="height: 250px;margin-right:20px; margin-top:20px" class="gallery-img">
+      <img src="../1_corniglia_2012.jpg" alt="" style="height: 250px;margin-right:20px; margin-top:20px" class="gallery-img">
+      <img src="../Manarola_NW_Cinque_Terre_Sep23_A7C_07237.jpg" alt="" style="height: 250px;margin-right:20px; margin-top:20px" class="gallery-img">
+      <img src="../Riomaggiore_From_Ferry_Cinque_Terre_Italy_Sep23_A7C_07414.jpg" alt="" style="height: 250px;margin-right:20px; margin-top:20px" class="gallery-img"> 
+
+      
+    </main> 
+    <div class="aside">
+      <h1>
+        What?
+      </h1>
+      <p>
+        Cinque Terre comprises five villages: Monterosso, Vernazza, 
+        Corniglia, Manarola, and Riomaggiore.
+      </p>
+      <h1>Where?</h1>
+      <p>On the northwest cost of the Italian Riviera, 
+        north of the city La Spezia.</p>
+  
+      <h1>
+        Price?
+      </h1>
+      <p>The Walk is free</p>
+
+      <h1 id="c5">Contact</h1>
+      <address style="font-size: 20px;">
+        Naveen K N<br>
+        91+6361722241<br>
+        naveenkn12309kbr <br>
+        @gmail.com<br>
+        Bangalore 561208
+      </address>
+    </div>
+  </section>
+
+  
+  
+</body>
+</html>
